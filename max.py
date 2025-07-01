@@ -1,9 +1,7 @@
 a=[1,4,6,8,5]
-first=second=a[0] 
+f=s=a[0]
 for i in range (len(a)):
-    if(a[i]>first):
-        second=first
-        first=a[i]
-     elif(a[i]>second and a[i]<first):
-         second
-print(second)
+    if(a[i]>f):
+        f=a[i]
+        s=f
+print(max)
